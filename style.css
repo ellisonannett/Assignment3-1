@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background: url('images/circus.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 700px; 
+    overflow: visible;
+}
+
+#sliding-image-1, #sliding-image-2, #sliding-image-3, #sliding-image-4, #sliding-image-5,
+#sliding-image-6, #sliding-image-7, #sliding-image-8, #sliding-image-9, #sliding-image-10 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 200px;
+    z-index: 10; 
+
+}
+
+#sliding-image-2 {
+    left: 100px;
+}
+
+#sliding-image-3 {
+    left: 200px;
+}
+
+#sliding-image-4 {
+    left: 300px;
+}
+
+#sliding-image-5 {
+    left: 400px;
+}
+
+#sliding-image-6 {
+    left: 0;
+    top: 120%; 
+}
+
+#sliding-image-7 {
+    left: 100px;
+    top: 120%;
+}
+
+#sliding-image-8 {
+    left: 200px;
+    top: 120%;
+}
+
+#sliding-image-9 {
+    left: 300px;
+    top: 120%;
+}
+
+#sliding-image-10 {
+    left: 400px;
+    top: 120%;
+}
